@@ -15,4 +15,8 @@ wget http://download.processing.org/processing-3.3.7-linux64.tgz
 sudo mv processing-3.3.7-linux64.tgz /opt
 cd /opt
 sudo tar xvf processing-3.3.7-linux64.tgz
-mkdir repos 
+mkdir repos
+
+sudo apt-get install ubuntu-desktop
+
+sudo apt-get install ruby ruby-dev make build-essential 
